@@ -1,0 +1,44 @@
+@keyframes name{
+    0%{
+        left:0;
+        top: 0;
+        background-color: red;
+    }
+    25%{
+        top: 300px;
+        background-color: blue;
+    }
+    50%{
+        top: 0;
+        background-color: blueviolet;
+    }
+    75%{
+        top: 300px;
+        background-color: chartreuse;
+    }
+    100%{
+        left: 700px; 
+        background-color: black;
+        top: 0;
+    }
+    
+}
+.wrap{
+    width: 800px;
+    height: 400px;
+    border:1px solid red;
+}
+.ball{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    border-radius: 50%;
+    border: 1px solid red;
+    background-color: chocolate;
+    animation: name 3s ease-in-out  infinite alternate ;
+    animation-play-state: running;
+}
+i{
+    width: 100px;
+    height: 100px;
+}
